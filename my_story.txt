@@ -1,0 +1,222 @@
+START_HP 5
+SCENE "Where am I?" is the first thought that rolls through your head as you slowly open your eyes. You feel the cold cobblestone under you, the night air filled with moisture, and the ground wet. You lay there for a second, looking up into the glow of gaslamps in a dense fog. Thoughts flow through your mind, mostly questions, until a terrifying realization crosses your mind: You do not remember your name. You look around and quickly notice you are in an alley, a light glow coming from the direction of the street.
+HP 0
+LOOT 0
+ITEM none
+CHOICES 3
+LABEL Leave the alley
+  SCENE You stumble groggily onto the barren streets of London, looking out into the fog, dimly lit by the gaslamps. An eerie glow covers the streets tonight, and there you stand, alone. “No! Too soon little one, return please!” A voice shouts from behind your head. Before you can process what it is, or who it is, you notice something. You notice a large jaw, teeth jagged and unlike any biological creature you have ever seen before. Unlike anything on Earth, this is entirely different, not even seeming to obey laws regarding three dimensional shapes. You cannot move. The jaws quickly close around you, taking the London streets with it. The loop resets.
+    HP -5
+    LOOT 0
+    ITEM none
+    CHOICES 0
+LABEL Search the alley
+  SCENE You slowly rise from the stoned floor beneath you. The surrounding fog is cold on your skin. You turn to your left and right, noticing a few doors lining the alley, they look Victorian. Wooden framed inlet from the cobblestone walls. Beneath you on the floor where you were just laying, you notice a circle of chalk pressed into the stone. An open book lies next to the circle, but the words in it are unintelligible, it is no language you recognize. When you turn around, you realize that there is a single light illuminating a doorstep at the end of the alley. On that doorstep there is a man, just barely hidden in the shadow cast by the light.  
+  HP 0
+  LOOT 0
+  ITEM Mysterious Book
+  CHOICES 3
+  LABEL Leave the alley
+    SCENE You stumble groggily onto the barren streets of London, looking out into the fog, dimly lit by the gaslamps. An eerie glow covers the streets tonight, and there you stand, alone. “No! Too soon little one, return please!” A voice shouts from behind your head. Before you can process what it is, or who it is, you notice something. You notice a large jaw, teeth jagged and unlike any biological creature you have ever seen before. Unlike anything on Earth, this is entirely different, not even seeming to obey laws regarding three dimensional shapes. You cannot move. The jaws quickly close around you, taking the London streets with it. The loop resets.
+      HP -5
+      LOOT 0
+      ITEM none
+      CHOICES 0
+  LABEL Read the Book
+    SCENE You cannot make much sense of the mysterious symbols but as you read you start to understand it. You cannot translate it but you know what this is. The book gives you answers. The answers you have been searching for. Your name comes first. You remember who you are, where you are from. You also come to realize that this is not earth. And just then a voice pushes into your head. “You have found the book, good. Little one listen, you must leave the alley quickly, Something wicked this way comes and I will guide you in your escape.” You think to ask the voice questions, but the book has informed you that now is not the time. 
+    HP 0
+    LOOT 0
+    ITEM none
+    CHOICES 1
+    LABEL Obey.
+      SCENE You walk out of the alley, your eyes pan back and forth. The fog obscures quite a lot but you see vividly, that the road abruptly ends before you. You stand under a gaslamp, illuminating the street with an eerie glow, and the other side of the road is simply not there. “Do not look for too long, there is work to be done. You must head west. Follow the road.”
+      HP 0
+      LOOT 0
+      ITEM none
+      CHOICES 2
+      LABEL Look into the abyss
+        SCENE You stare into the fog that continues past the torn apart road. You awoke here, unknowing that the world itself is being ripped apart, and yet there is still so much you do not know. Why are you here, why is the world this way? So many questions but as you look.. you feel something beckoning you. The pressure gets stronger as you eventually cannot resist the urge to plunge yourself into the abyss. You fall, feeling the cold of the foggy air fly past you. Eventually the world dims, and the loop resets.
+        HP -5
+        LOOT 0
+        ITEM none
+        CHOICES 0
+      LABEL Obey.
+        SCENE You turn to your left, west. And you begin to walk. “Good, now listen closely. Third alley, you will enter, make no sound and wait for it to pass. Understood?”
+        HP 0
+        LOOT 0
+        ITEM none
+        CHOICES 2
+        LABEL Obey.
+          SCENE You listen, dipping quickly into the alley. Almost exactly when you do, you see darkness, in its purest form, take hold of the fog outside the alley, for only a brief moment. You think to yourself: what was that? “That was a monster little one. Not upcoming here, but might be a new site for you. I know you want answers and I will give them in time but for now we must move. Listen to my instructions and I will get you home.
+          HP 0
+          LOOT 0
+          ITEM A Guide
+          CHOICES 2
+          LABEL Ask what this place is.
+            SCENE “You are from Earth, if I am not mistaken. A place where humanity reigns supreme, at the top of the food chain. Technology controls the world and science is ever advancing. There are certain laws your world obeys. This place is much different, however. This is a sort of in between. This is not my home but it is a place quite familiar to me. There are many other worlds out there far different from your own. These worlds do not obey the same laws as yours. Here there are no laws, and thus monsters roam free. Every now and then one of your kind will appear here, and I see it fit to guide them back home. I am sorry; however, I answered your question, but now the loop must reset. We take up too much time when you ask questions, and I cannot refuse you an answer. I will meet you again, very soon. Though, you will not remember. Good bye little one.” The loop resets.
+            HP -5
+            LOOT 0
+            ITEM none
+            CHOICES 0
+          LABEL Continue to obey the voice’s instructions.
+            SCENE “Look on the horizon, through the fog. Do you see that tower? The one with the eye that watches over all that is here? That is your escape. It seems far, I know, but space works differently here than where you’re from.” The voice guides you, avoiding more of the aforementioned monsters. Narrowly escaping death quite a few times before reaching the base of the tower.
+            HP 0
+            LOOT 0
+            ITEM none
+            CHOICES 2
+              LABEL Enter the tower.
+                SCENE “I can not follow you into the tower, though I will leave you this one last piece of guidance. The answers in the tower are not for you.” The voice fades away as you enter the tower. The inside is infinitely large, you can somehow grasp infinity here. You know that there are no walls in this tower but you also come to realize that this tower holds everything. All the answers to every question you have. You can have it all.
+                HP 0
+                LOOT 0
+                ITEM none
+                CHOICES 2
+                LABEL Know
+                  SCENE You look around the tower. Before you know it you are standing in front of a pedestal, it beckons you to place the book upon it. You do so, reading every page instantaneously. The book, you now understand, holds the answers to every feasible question. You understand everything. More than just the secrets of the world you came from, more than what this world is. Everything. This place that you found yourself in is a space in between worlds, a place with no rules. The laws of physics you know do not apply. Often people, and places will end up here, having fallen through the cracks between the veil that separates the worlds. You realize that you are one of the ones who fell through the cracks. The voice, it is just a helpful creature with the capability of traversing this space, though not physically. It truly is kind natured. You realize that had you stopped at any point to ask it questions, you would have died and the loop would reset. The loop, it is your prison. The rule you abide by after having entered here. You know that once you placed the book on the pedestal you sealed your fate, the knowledge will be too much for you and you will seal your fate. Within your heart there resides a sort of poison. Given the right circumstances you will die. The poison must kill you before your being is torn apart by the infinite knowledge of the book. This will be your salvation, you will loop again, and eventually you will escape. The loop resets.
+                  HP -5
+                  LOOT 0
+                  ITEM Knowledge
+                  CHOICES 0
+                LABEL Embrace the unknown
+                  SCENE You close your eyes, you get the feeling you are to leave the book behind. You drop it but never hear it hit the ground. Eventually you realize that you cannot hear your footsteps either. The very world itself starts to fade away. Each step you take you feel less real. Until eventually you place your foot down and you feel a familiar feeling, that of asphalt. The familiar crunch beneath your foot. Though you know it is not yet time to open your eyes. You take another step. And another. Another. Another. Finally, you know that you have escaped. You slowly open your eyes and see a quite familiar world. It is home. You made it.
+                  HP 0
+                  LOOT 5
+                  ITEM Home
+                  CHOICES 0
+              LABEL Ask what’s on the other side of the door.
+                SCENE “On the other side of this door remains the world you seek to return to. I cannot guarantee that you will be put back in the right place, but I know your planet Earth resides somewhere in this tower. This tower holds all. All the knowledge amongst an infinite world, every answer to every question, every world itself is within this tower. I will tell you this now though I know you will forget: Do not look at anything in the tower, you will find your way regardless. Your mind is not equipped to handle the answers in the tower. I am sorry, Every time we stop to answer a question of yours, the wasted time leads to your death. I will see you again soon, little one, though you will not remember. Good bye.” The loop resets.
+                HP -5
+                LOOT 0
+                ITEM none
+                CHOICES 0
+        LABEL Disobey.
+          SCENE “The alley, now! Listen to me, you must enter the alley or-” The loop resets.
+          HP -5
+          LOOT 0
+          ITEM none
+          CHOICES 0
+  LABEL Approach the man
+    SCENE You slowly take a few steps further into the darkness of the alley, the light illuminating the lone door at the end. You can only barely see the man, but you can’t make out his face. You can't quite see what he looks like. "Can I have a cigarette?" The man appears to be swaying ever so slightly, as he speaks.
+    HP 0
+    LOOT 0
+    ITEM none
+    CHOICES 2
+      LABEL Give the man a cigarette
+        SCENE You reach into the pocket of your trousers, noticing a single cigarette. You are unsure of how it got there, but you are unsure of many things. You raise the cigarette to the man but he does not reach back, instead pulling slightly away from you. You take a step forward to follow, still holding out the cigarette. You realize too late, the man's mouth did not move as he spoke. The light above reminds you of an anglerfish before you feel the jaws ofa mysterious beast close around you. You feel surprisingly little pain before you feel your grip on life weaken until your inevitable death. The loop resets.
+        HP -5
+        LOOT 0
+        ITEM none
+        CHOICES 0
+      LABEL Run
+        SCENE You feel in your pocket, a single cigarette, you look up at the man. "Can I have a cigarette?" He repeats, only this time you watch his face. You notice it. Something felt wrong but now you are sure, his mouth did not move as he spoke. The light above his head reminds you of an anglerfish and you take a step back. Quickly, you see the man fold at his waist, dragged abruptly into the door that he stood at. The light dims and flickers as you turn and leave the alley. As you break away from the alley, the fog does not reveal much of the street. "There you are, little one." The voice is deep, and seemingly omnidirectional. You quickly notice the streets are empty, you notice no others.
+        HP -1
+        LOOT 0
+        ITEM none
+        CHOICES 2
+        LABEL Ask “Who are you?”
+          SCENE “You don’t remember? Of course you wouldn’t, you reset every time. I am somewhat like your… guide. Yes, suppose you can think of me as such. I am here to help you get home. You see, you’re sort of stuck. Here, not my home exactly but- a place I am somewhat familiar with. Furthermore, I see every loop. So I know things that you do not. And I am sorry to say that the time I spend answering this question has gotten you killed before. But I still answer, perchance because I am incapable of ignoring a question, or perchance because I believe you might retain some memory after you go. Regardless of the reason, little one, I will see you in your next life.” The voice fades, and with it you notice a darkness pass, rolling down the street. You hear crumbling. The ground. You look beneath you and cobbled stone begins to separate, tearing apart as you watch the road itself give way to gravity. The ground beneath you falls. You feel the pull of gravity as you descend downwards in a storm of rubble. Eventually all light fades, and so do you. The loop resets.
+          HP -4
+          LOOT 0
+          ITEM none
+          CHOICES 0
+        LABEL Ignore the voice
+          SCENE You push the voice out of your head, the pain growing from behind your eyes as you resist. What is this voice? Why is it talking? What am I doing here? You are caught up in these thoughts, these questions, when suddenly and quickly you open your eyes to darkness. Only for a moment do you realize you're alive despite the lack of a world around you. The Loop Resets.
+          HP -4
+          LOOT 0
+          ITEM none
+          CHOICES 0
+LABEL Cry
+  SCENE There you lie upon the cobbled floor of the alley, as you feel the tears well in your eyes and your body convulse. You feel the well of emotions gripping you as you begin to cry. You cry for a good few minutes before hearing a voice. "There you are, little one." The voice is deep and you feel a pressure in your ear as it speaks. "I am sorry to have left you like this, but you must rise. There is still work to be done.
+  HP 0
+  LOOT 0
+  ITEM Unstable Emotional State
+  CHOICES 3
+  LABEL Ask "Who are you?"
+    SCENE “You don’t remember? Of course you wouldn’t, you reset every time. I am somewhat like your… guide. Yes, suppose you can think of me as such. I am here to help you get home. You see, you’re sort of stuck. Here, not my home exactly but- a place I am somewhat familiar with. Furthermore, I see every loop. So I know things that you do not. And I am sorry to say that the time I spend answering this question has gotten you killed before. But I still answer, perchance because I am incapable of ignoring a question, or perchance because I believe you might retain some memory after you go. Regardless of the reason, little one, I will see you in your next life.” The voice fades, and with it you notice a darkness pass, rolling down the street. You hear crumbling. The ground. You look beneath you and cobbled stone begins to separate, tearing apart as you watch the road itself give way to gravity. The ground beneath you falls. You feel the pull of gravity as you descend downwards in a storm of rubble. Eventually all light fades, and so do you. The loop resets.
+    HP -5
+    LOOT 0
+    ITEM none
+    CHOICES 0
+  LABEL Obey
+    SCENE You walk out of the alley, your eyes pan back and forth. The fog obscures quite a lot but you see vividly, that the road abruptly ends before you. You stand under a gaslamp, illuminating the street with an eerie glow, and the other side of the road is simply not there. “Do not look for too long, there is work to be done. You must head west. Follow the road.”
+    HP 0
+    LOOT 0
+    ITEM none
+    CHOICES 2
+    LABEL Look into the abyss
+      SCENE You stare into the fog that continues past the torn apart road. You awoke here, unknowing that the world itself is being ripped apart, and yet there is still so much you do not know. Why are you here, why is the world this way? So many questions but as you look.. you feel something beckoning you. The pressure gets stronger as you eventually cannot resist the urge to plunge yourself into the abyss. You fall, feeling the cold of the foggy air fly past you. Eventually the world dims, and the loop resets.
+      HP -5
+      LOOT 0
+      ITEM none
+      CHOICES 0
+    LABEL Obey.
+      SCENE You turn to your left, west. And you begin to walk. “Good, now listen closely. Third alley, you will enter, make no sound and wait for it to pass. Understood?”
+      HP 0
+      LOOT 0
+      ITEM none
+      CHOICES 2
+      LABEL Obey.
+        SCENE You listen, dipping quickly into the alley. Almost exactly when you do, you see darkness, in its purest form, take hold of the fog outside the alley, for only a brief moment. You think to yourself: what was that? The answer does not come freely. You feel the fear well inside you once again, just as it had before. “Do not give into your fear, that is what they want. Do not- give- in-” You can’t help it, You feel the fear consume you, your heart pounding in your chest until it grows into an ache. The pain spreads and then quickly, you notice the darkness return, creeping down the alleyway towards you. Eventually everything is submerged in shadow. You feel yourself let go. The loop resets.
+        HP -5
+        LOOT 0
+        ITEM none
+        CHOICES 0
+      LABEL Disobey.
+        SCENE “The alley, now! Listen to me, you must enter the alley or-” The loop resets.
+        HP -5
+        LOOT 0
+        ITEM none
+        CHOICES 0
+  LABEL Simply tell the voice "No."
+    SCENE "What did you say? Surely I misheard. I understand your position but please, reconsider this response." The voice says sternly. Your headache worsens.
+    HP -1
+    LOOT 0
+    ITEM none
+    CHOICES 2
+    LABEL "I'm sorry, I will do as you request."
+      SCENE “Better-” The voice says, softening slightly. Now get up, and leave the alley.”
+      HP 0
+      LOOT 0
+      ITEM none
+      CHOICES 1
+      LABEL Obey.
+        SCENE You walk out of the alley, your eyes pan back and forth. The fog obscures quite a lot but you see vividly, that the road abruptly ends before you. You stand under a gaslamp, illuminating the street with an eerie glow, and the other side of the road is simply not there. “Do not look for too long, there is work to be done. You must head west. Follow the road.”
+        HP 0
+        LOOT 0
+        ITEM none
+        CHOICES 2
+        LABEL Look into the abyss
+          SCENE You stare into the fog that continues past the torn apart road. You awoke here, unknowing that the world itself is being ripped apart, and yet there is still so much you do not know. Why are you here, why is the world this way? So many questions but as you look.. you feel something beckoning you. The pressure gets stronger as you eventually cannot resist the urge to plunge yourself into the abyss. You fall, feeling the cold of the foggy air fly past you. Eventually the world dims, and the loop resets.
+          HP -4
+          LOOT 0
+          ITEM none
+          CHOICES 0
+        LABEL Obey.
+          SCENE You turn to your left, west. And you begin to walk. “Good, now listen closely. Third alley, you will enter, make no sound and wait for it to pass. Understood?”
+          HP 0
+          LOOT 0
+          ITEM none
+          CHOICES 2
+          LABEL Obey.
+            SCENE You listen, dipping quickly into the alley. Almost exactly when you do, you see darkness, in its purest form, take hold of the fog outside the alley, for only a brief moment. You think to yourself: what was that? The answer does not come freely. You feel the fear well inside you once again, just as it had before. “Do not give into your fear, that is what they want. Do not- give- in-” You can’t help it, You feel the fear consume you, your heart pounding in your chest until it grows into an ache. The pain spreads and then quickly, you notice the darkness return, creeping down the alleyway towards you. Eventually everything is submerged in shadow. You feel yourself let go. The loop resets.
+            HP -4
+            LOOT 0
+            ITEM none
+            CHOICES 0
+          LABEL Disobey.
+            SCENE “The alley, now! Listen to me, you must enter the alley or-” The loop resets.
+            HP -4
+            LOOT 0
+            ITEM none
+            CHOICES 0
+    LABEL "I said, no."
+      SCENE "What disrespect, from the child i decided to support, after what I gave you. You come to me, beg me for help and yet here and now you refuse me? I should expect no less from your kind. I have no more need for you. Die."
+      HP -3
+      LOOT 0
+      ITEM none
+      CHOICES 1
+      LABEL Die
+        SCENE The voice fades away, and your headache feels as though it dissipates. You remain on the floor of the cobblestone ally, still confused, unsure of anything. What was that voice? Why did it beckon a response from you? As you lay there you feel your heart begin to hurt, it pulses in your chest. You rise from the ground, gripping your chest as you stumble into the light. Hoping, praying that someone can help. Just a few steps into the street is all you need. Just a few steps.. You catch a glimpse of someone walking past and you reach your hand out but no words leave your mouth as you feel yourself fall to the ground. The world around you grows dim until finally, you are dead. The loop resets.
+          HP -1
+          LOOT 0
+          ITEM none
+          CHOICES 0
